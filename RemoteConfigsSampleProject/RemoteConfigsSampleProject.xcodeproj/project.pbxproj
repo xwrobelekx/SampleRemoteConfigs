@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3BFC1D4A2A98345600196D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D492A98345600196D44 /* AppDelegate.swift */; };
 		3BFC1D4C2A98345600196D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */; };
-		3BFC1D4E2A98345600196D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D4D2A98345600196D44 /* ViewController.swift */; };
-		3BFC1D512A98345600196D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D4F2A98345600196D44 /* Main.storyboard */; };
 		3BFC1D532A98345900196D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D522A98345900196D44 /* Assets.xcassets */; };
 		3BFC1D562A98345900196D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D542A98345900196D44 /* LaunchScreen.storyboard */; };
 		3BFC1D612A98345900196D44 /* RemoteConfigsSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D602A98345900196D44 /* RemoteConfigsSampleProjectTests.swift */; };
@@ -43,8 +41,6 @@
 		3BFC1D462A98345600196D44 /* RemoteConfigsSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteConfigsSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFC1D492A98345600196D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BFC1D4D2A98345600196D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3BFC1D502A98345600196D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BFC1D522A98345900196D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BFC1D552A98345900196D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BFC1D572A98345900196D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,8 +110,6 @@
 				3BFC1D7F2A98394E00196D44 /* MainTabView.swift */,
 				3BFC1D812A9839D700196D44 /* MainTabViewModel.swift */,
 				3BFC1D792A9837C300196D44 /* Protocols */,
-				3BFC1D4D2A98345600196D44 /* ViewController.swift */,
-				3BFC1D4F2A98345600196D44 /* Main.storyboard */,
 				3BFC1D7C2A98386000196D44 /* Resources */,
 			);
 			path = RemoteConfigsSampleProject;
@@ -261,7 +255,6 @@
 			files = (
 				3BFC1D562A98345900196D44 /* LaunchScreen.storyboard in Resources */,
 				3BFC1D532A98345900196D44 /* Assets.xcassets in Resources */,
-				3BFC1D512A98345600196D44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFC1D7B2A9837D300196D44 /* Coordinator.swift in Sources */,
-				3BFC1D4E2A98345600196D44 /* ViewController.swift in Sources */,
 				3BFC1D4A2A98345600196D44 /* AppDelegate.swift in Sources */,
 				3BFC1D7E2A9838C600196D44 /* MainCoordinator.swift in Sources */,
 				3BFC1D4C2A98345600196D44 /* SceneDelegate.swift in Sources */,
@@ -329,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3BFC1D4F2A98345600196D44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BFC1D502A98345600196D44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3BFC1D542A98345900196D44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -474,7 +458,6 @@
 				INFOPLIST_FILE = RemoteConfigsSampleProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -502,7 +485,6 @@
 				INFOPLIST_FILE = RemoteConfigsSampleProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
