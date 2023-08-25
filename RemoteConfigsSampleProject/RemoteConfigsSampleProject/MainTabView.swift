@@ -22,6 +22,7 @@ struct MainTabView: View {
 
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {
-        MainTabView(viewModel: MainTabViewModel())
+        MainTabView(viewModel: MainTabViewModel(
+            appConfig: AppConfigManager().appConfig))
     }
 }
