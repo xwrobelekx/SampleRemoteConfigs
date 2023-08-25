@@ -13,6 +13,9 @@
 		3BE049F52A98EB5700AA14F3 /* AppConfigDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE049F42A98EB5700AA14F3 /* AppConfigDecoder.swift */; };
 		3BE049F72A98EC4B00AA14F3 /* AppConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE049F62A98EC4B00AA14F3 /* AppConfigs.swift */; };
 		3BE049F92A98F02A00AA14F3 /* FirebaseConfigDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE049F82A98F02A00AA14F3 /* FirebaseConfigDecoder.swift */; };
+		3BE04A012A990BED00AA14F3 /* GreenScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE04A002A990BED00AA14F3 /* GreenScreen.swift */; };
+		3BE04A032A990CF500AA14F3 /* YellowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE04A022A990CF500AA14F3 /* YellowScreen.swift */; };
+		3BE04A052A990D4600AA14F3 /* RedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE04A042A990D4600AA14F3 /* RedScreen.swift */; };
 		3BFC1D4A2A98345600196D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D492A98345600196D44 /* AppDelegate.swift */; };
 		3BFC1D4C2A98345600196D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */; };
 		3BFC1D532A98345900196D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D522A98345900196D44 /* Assets.xcassets */; };
@@ -56,6 +59,9 @@
 		3BE049F42A98EB5700AA14F3 /* AppConfigDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigDecoder.swift; sourceTree = "<group>"; };
 		3BE049F62A98EC4B00AA14F3 /* AppConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigs.swift; sourceTree = "<group>"; };
 		3BE049F82A98F02A00AA14F3 /* FirebaseConfigDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfigDecoder.swift; sourceTree = "<group>"; };
+		3BE04A002A990BED00AA14F3 /* GreenScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreen.swift; sourceTree = "<group>"; };
+		3BE04A022A990CF500AA14F3 /* YellowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowScreen.swift; sourceTree = "<group>"; };
+		3BE04A042A990D4600AA14F3 /* RedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreen.swift; sourceTree = "<group>"; };
 		3BFC1D462A98345600196D44 /* RemoteConfigsSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteConfigsSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFC1D492A98345600196D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +124,30 @@
 			path = AppConfigs;
 			sourceTree = "<group>";
 		};
+		3BE049FD2A990BB800AA14F3 /* Green Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3BE04A002A990BED00AA14F3 /* GreenScreen.swift */,
+			);
+			path = "Green Feature";
+			sourceTree = "<group>";
+		};
+		3BE049FE2A990BC300AA14F3 /* Red Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3BE04A042A990D4600AA14F3 /* RedScreen.swift */,
+			);
+			path = "Red Feature";
+			sourceTree = "<group>";
+		};
+		3BE049FF2A990BD600AA14F3 /* Yellow Feature */ = {
+			isa = PBXGroup;
+			children = (
+				3BE04A022A990CF500AA14F3 /* YellowScreen.swift */,
+			);
+			path = "Yellow Feature";
+			sourceTree = "<group>";
+		};
 		3BFC1D3D2A98345600196D44 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +181,9 @@
 				3BFC1D7D2A9838C600196D44 /* MainCoordinator.swift */,
 				3BFC1D7F2A98394E00196D44 /* MainTabView.swift */,
 				3BFC1D812A9839D700196D44 /* MainTabViewModel.swift */,
+				3BE049FE2A990BC300AA14F3 /* Red Feature */,
+				3BE049FF2A990BD600AA14F3 /* Yellow Feature */,
+				3BE049FD2A990BB800AA14F3 /* Green Feature */,
 				3BE049EF2A98E66700AA14F3 /* AppConfigs */,
 				3BFC1D792A9837C300196D44 /* Protocols */,
 				3BFC1D7C2A98386000196D44 /* Resources */,
@@ -456,10 +489,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFC1D7B2A9837D300196D44 /* Coordinator.swift in Sources */,
+				3BE04A032A990CF500AA14F3 /* YellowScreen.swift in Sources */,
 				3BE049F12A98E67E00AA14F3 /* AppConfigManager.swift in Sources */,
 				3BFC1D4A2A98345600196D44 /* AppDelegate.swift in Sources */,
 				3BFC1D7E2A9838C600196D44 /* MainCoordinator.swift in Sources */,
 				3BFC1D4C2A98345600196D44 /* SceneDelegate.swift in Sources */,
+				3BE04A052A990D4600AA14F3 /* RedScreen.swift in Sources */,
+				3BE04A012A990BED00AA14F3 /* GreenScreen.swift in Sources */,
 				3BFC1D802A98394E00196D44 /* MainTabView.swift in Sources */,
 				3BE049F52A98EB5700AA14F3 /* AppConfigDecoder.swift in Sources */,
 				3BE049F92A98F02A00AA14F3 /* FirebaseConfigDecoder.swift in Sources */,
