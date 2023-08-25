@@ -3,13 +3,14 @@
 
 ## Steps:
 
-1. Clone this project
-2. Replace Bundle Identifier.
-3. Register for github Firebase account if you don't have one.
-4. Create new firebse project.
-5. You will need to provide projects Bundle Identifier (use your own, and make sure it matched the project bundle identifer)
-6. From fire base downlad the `GoogleService-Info.plist` and place it in the project.
-7. In firebase you will need to set up your Remote Configs.
+1. Clone this project.
+2. Install pods.
+3. Replace Bundle Identifier.
+4. Register for github Firebase account if you don't have one.
+5. Create new firebse project.
+6. You will need to provide projects Bundle Identifier (use your own, and make sure it matched the project bundle identifer)
+7. From fire base downlad the `GoogleService-Info.plist` and place it in the project.
+8. In firebase you will need to set up your Remote Configs.
 
  Currently this project uses those 3 feature flags:
         `green_screen_feature_flag`
