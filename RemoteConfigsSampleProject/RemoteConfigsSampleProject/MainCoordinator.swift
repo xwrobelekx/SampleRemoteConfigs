@@ -11,9 +11,11 @@ import UIKit
 class MainCoordinator: Coordinator {
     var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
-    
-    init(navigationController: UINavigationController) {
+    var appConfigs: AppConfig
+
+    init(navigationController: UINavigationController, appConfig: AppConfig) {
         self.navigationController = navigationController
+        self.appConfigs = appConfig
     }
     
     func start() {
@@ -24,7 +26,7 @@ class MainCoordinator: Coordinator {
 //MARK: - Flows
 extension MainCoordinator {
     func runMainTabBar() {
-        let viewModel = MainTabViewModel()
+        let viewModel = MainTabViewModel(appConfig: appConfigs)
         let mainTabBar = MainTabView(viewModel: viewModel)
         let hostingViewController = UIHostingController(rootView: mainTabBar)
         

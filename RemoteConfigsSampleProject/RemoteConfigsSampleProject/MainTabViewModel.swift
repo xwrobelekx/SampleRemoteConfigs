@@ -8,5 +8,9 @@
 import Foundation
 
 class MainTabViewModel: ObservableObject {
-    // Add ViewModel Logic
+    var appConfig: AppConfig
+    
+    init(appConfig: AppConfig) {
+        self.appConfig = appConfig
+    }
 }
