@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BE049EE2A984FE900AA14F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE049ED2A984FE900AA14F3 /* GoogleService-Info.plist */; };
 		3BFC1D4A2A98345600196D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D492A98345600196D44 /* AppDelegate.swift */; };
 		3BFC1D4C2A98345600196D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */; };
 		3BFC1D532A98345900196D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D522A98345900196D44 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		04C2CCC3B6F7B9A9360849C1 /* Pods_RemoteConfigsSampleProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteConfigsSampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D68AC5856F02B9667BD589 /* Pods-RemoteConfigsSampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfigsSampleProjectTests.release.xcconfig"; path = "Target Support Files/Pods-RemoteConfigsSampleProjectTests/Pods-RemoteConfigsSampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		32D14BCEAB9EC575FA4D8794 /* Pods_RemoteConfigsSampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteConfigsSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE049ED2A984FE900AA14F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3BFC1D462A98345600196D44 /* RemoteConfigsSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteConfigsSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFC1D492A98345600196D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				3BFC1D492A98345600196D44 /* AppDelegate.swift */,
 				3BFC1D4B2A98345600196D44 /* SceneDelegate.swift */,
 				3BFC1D572A98345900196D44 /* Info.plist */,
+				3BE049ED2A984FE900AA14F3 /* GoogleService-Info.plist */,
 				3BFC1D7D2A9838C600196D44 /* MainCoordinator.swift */,
 				3BFC1D7F2A98394E00196D44 /* MainTabView.swift */,
 				3BFC1D812A9839D700196D44 /* MainTabViewModel.swift */,
@@ -186,7 +189,6 @@
 				CA72F6885C610A8073A053E4 /* Pods-RemoteConfigsSampleProjectTests.debug.xcconfig */,
 				14D68AC5856F02B9667BD589 /* Pods-RemoteConfigsSampleProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -301,6 +303,7 @@
 			files = (
 				3BFC1D562A98345900196D44 /* LaunchScreen.storyboard in Resources */,
 				3BFC1D532A98345900196D44 /* Assets.xcassets in Resources */,
+				3BE049EE2A984FE900AA14F3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
